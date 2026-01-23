@@ -34,4 +34,5 @@ for x in range(1,10):
     
 for x in range(1,7):
     print(x,end="") # all the numbers in the one single line 
-         
+    print(x,end="-")#op : 1-2-3-4-5-6-7-
+    print(x,end=" ")  # op : 1 2 3 4 5 6 7 
