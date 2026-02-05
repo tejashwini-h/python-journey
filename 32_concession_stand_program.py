@@ -26,5 +26,5 @@ for food in cart:
     print(food , end=" ")  
         
 print()
-print(f"total is : Rs. {total:.2f}")
+print(f"total is : Rs.{total:.2f}")
         

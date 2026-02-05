@@ -28,3 +28,6 @@ while running:
     play_again=input("play again (y/n): ").lower()
     if not play_again =="y":
         running = False
+    # if not play_again=input("play again (y/n): ").lower()=="y":
+        #running = False
+print("thanks for playing!!")
