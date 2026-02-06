@@ -1,5 +1,6 @@
 # iterables = an object/collection that can return its elements one at a time,
 #              allowing it to be iterated over in a loop
+#              iterables are object , you can loop through
 
 numbers = [1,2,3,4,5]# list are iterables
 
@@ -46,4 +47,3 @@ print()
 for key,value in my_dictionary.items():
     print(f"{key} : {value}")
 print()
-# 4:37

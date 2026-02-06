@@ -1,5 +1,5 @@
 #validate user input
-# 1. username is not mote then 12 characters
+# 1. username is not more then 12 characters
 # 2. must not contain spaces
 # 3. must not contain digits
 user_name = input("enter ur name: ")

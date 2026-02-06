@@ -1,4 +1,4 @@
-# Tuple = () ordered and unchangeable , duplicate okay , faster#set = {} unordered and immutable , but aa/remove okay , no duplicates
+# Tuple = () ordered and unchangeable , duplicate okay , faster
 
 fruit = ("apple","orange","banana","coconut")
 

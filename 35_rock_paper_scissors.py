@@ -5,22 +5,22 @@ options = ("rock","paper","scissors")
 running = True
 
 while running:
-    player = None
+    player_choice = None
     computer = random.choice(options)  
          
-    while player not in options:
-        player = input("enter a choice (rock, paper ,scissors): ")
+    while player_choice not in options:
+        player_choice = input("enter a choice (rock, paper ,scissors): ")
 
 
-    print(f"player : {player} and computer : {computer}")
+    print(f"player : {player_choice} and computer : {computer}")
 
-    if player==computer:
+    if player_choice==computer:
         print("it's a tie!!!")
-    elif player == "rock" and computer=="scissors":
+    elif player_choice == "rock" and computer=="scissors":
         print("you win!!")
-    elif player == "paper" and computer=="rock":
+    elif player_choice== "paper" and computer=="rock":
         print("you win!!")
-    elif player == "scissors" and computer=="paper":
+    elif player_choice== "scissors" and computer=="paper":
         print("you win!!")
     else:
         print("you lost!!!")

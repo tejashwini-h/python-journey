@@ -28,7 +28,7 @@ remainder = friends % 3
 print(remainder)
 
 x=3.5 
-y=-5 
+y=-5.35 
 z=10
 result =round(x)
 print(result) # o/p: 3

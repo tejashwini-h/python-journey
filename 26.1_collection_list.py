@@ -1,6 +1,6 @@
 # collections = single " variable" used to store multiple values
 # list = [] ordered and changeable , duplicates ok
-#set = {} unordered and immutable , but aa/remove okay , no duplicates
+#set = {} unordered and immutable , but add/remove okay , no duplicates
 # Tuple = () ordered and unchangeable , duplicate okay , faster
 
 
