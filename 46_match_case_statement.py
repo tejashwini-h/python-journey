@@ -7,5 +7,5 @@ def day_of_week(day):
         case "sunday":return "its sunday funday holiday"
         case "saturday":return "its funday holiday"
         case _: return "week day , no holiday"
-        
+        # _ => wild card
 print(day_of_week("tuesday")) 

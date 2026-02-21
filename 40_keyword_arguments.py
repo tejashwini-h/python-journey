@@ -13,6 +13,6 @@ hello("Hello","Ms.","Tejashwini","Naduvinamth")
 hello(greeting="Hello",title ="Ms.",first="Tejashwini",last="Naduvinamth")
 
 for x in range(1,11):
-    print(x,end = " ") # keyword is end here
+    print(x,end = " ") # "end" is keyword here
     
 print("1","2","3","4","5", sep= "-") # here separator keyword act as keyword argument

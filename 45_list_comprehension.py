@@ -18,8 +18,8 @@ print(square,end=" ")
 
 # list comprehension = 
 #  doubles =[expression for value in iterable if condition]
-
-doubles    =[    x*2    for value in range(1,11)] # condition later
+#                ||      ||   ||  ||    ||    
+doubles    =[    x*2    for value in range(1,11)          ] # condition later
 print(doubles)
 
 fruits = ["apple","orange","banana","coconut"]
