@@ -4,9 +4,12 @@
 
 #class = (blueprint) used to design the structure and layout of an object
 
+#class is blueprint used to create a object
+#object is a real thing created using a class
 class car:
     def __init__(self,model,year,color,for_sale):# this is called constructor method , it is used to construct object
         # self means this object we are creating  it now that is 'car'      
+        # self => refers to the object that calls the methods 
         self.model = model
         self.year = year
         self.color = color

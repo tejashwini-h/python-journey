@@ -3,11 +3,11 @@
 #                       without the main block of code
 
 # eg : library 
-d#ef main():
+def main():
     # program goes here
-  #  pass
-#if __name__ == '__main__':
-    #main()
+    pass
+if __name__ == '__main__':
+    main()
 # python runs files in 2 ways 
 # 1) run directly (as a program)
 # 2) import inside another function 
